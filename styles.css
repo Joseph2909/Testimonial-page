@@ -55,6 +55,7 @@ p {
   border-color: hsl(224, 10%, 45%);
   border-style: solid;
   margin-right: 0.8rem;
+  object-fit: cover;
 }
 
 .personal-info-container,
