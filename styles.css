@@ -235,7 +235,6 @@ p {
   }
   .daniel-container {
     height: 86%;
-    width: 35rem;
     background-image: url(./images/bg-pattern-quotation.svg);
     background-repeat: no-repeat;
     background-position: top 0.5rem right 5rem;
