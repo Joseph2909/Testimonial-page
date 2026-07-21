@@ -1,40 +1,37 @@
-body{
+body {
   display: flex;
   flex-direction: column;
 }
-div{
-  font-family: 'Barlow Semi Condensed', sans-serif;
+div {
+  font-family: "Barlow Semi Condensed", sans-serif;
 }
-blockquote{
+blockquote {
   margin: 0;
 }
-p{
+p {
   margin: 0;
 }
 .attribution {
   font-size: 0.6875rem;
-  text-align: center; 
+  text-align: center;
   flex-shrink: 0;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%); 
+  color: hsl(228, 45%, 44%);
 }
 
-
-.content-container{
+.content-container {
   display: flex;
   flex-direction: column;
   padding: 5rem 1.5rem;
   box-sizing: border-box;
-  
 }
-
 
 .daniel-container,
 .jonathan-container,
 .jeanette-container,
 .patrick-container,
-.kira-container{
+.kira-container {
   display: flex;
   flex-direction: column;
   background-color: hsl(263, 55%, 52%);
@@ -45,28 +42,26 @@ p{
   box-sizing: border-box;
   box-shadow: 1rem 1rem 3rem hsla(0, 0%, 7%, 0.3);
   margin-bottom: 2rem;
-
 }
-
 
 .daniel-img,
 .jonathan-img,
 .jeanette-img,
 .patrick-img,
-.kira-img{
+.kira-img {
   width: 65%;
   height: 2rem;
   border-radius: 50%;
   border-color: hsl(224, 10%, 45%);
   border-style: solid;
-  margin-right: 0.8rem ;
+  margin-right: 0.8rem;
 }
 
 .personal-info-container,
 .jonathan-personal-info-container,
 .jeanette-personal-info-container,
 .patrick-personal-info-container,
-.kira-personal-info-container{
+.kira-personal-info-container {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -76,16 +71,15 @@ p{
 .name,
 .jonathan-name,
 .jeanette-name,
-.patrick-name{
+.patrick-name {
   font-size: 0.9rem;
   color: hsl(0, 0%, 100%);
   font-weight: 500;
-  margin-bottom: 0.1rem
-
+  margin-bottom: 0.1rem;
 }
 
 .verified-graduate-container,
-.patrick-verified-graduate-container{
+.patrick-verified-graduate-container {
   font-size: 0.8rem;
   color: hsl(0, 0%, 81%);
   font-weight: 400;
@@ -95,7 +89,7 @@ p{
 .jonathan-heading-container,
 .jeanette-heading-container,
 .patrick-heading-container,
-.kira-heading-container{
+.kira-heading-container {
   font-size: 1.3rem;
   color: hsl(0, 0%, 100%);
   font-weight: 600;
@@ -107,204 +101,189 @@ p{
 .jonathan-desc-text-container,
 .jeanette-desc-text-container,
 .patrick-desc-text-container,
-.kira-desc-text-container{
+.kira-desc-text-container {
   font-size: 0.78rem;
   color: hsl(0, 0%, 81%);
   font-weight: 500;
   line-height: 1.5;
 }
 
-.jonathan-container{
+.jonathan-container {
   background-color: hsl(217, 19%, 35%);
   height: 16rem;
   padding: 2rem 2.5rem;
 }
 
-.jonathan-img{
-  margin-right: 1rem ;
+.jonathan-img {
+  margin-right: 1rem;
 }
 
-.jonathan-name{
+.jonathan-name {
   font-size: 0.8rem;
   margin-bottom: 0.1rem;
   margin-left: 0.1rem;
-
 }
 
 .jonathan-verified-graduate-container,
-.jeanette-verified-graduate-container{
+.jeanette-verified-graduate-container {
   font-size: 0.7rem;
   color: hsla(0, 0%, 81%, 0.5);
   font-weight: 500;
   margin-left: 0.1rem;
-
 }
 
-.jonathan-heading-container{
+.jonathan-heading-container {
   font-size: 1.2rem;
   font-weight: 500;
 }
 
-.jeanette-container{
+.jeanette-container {
   background-color: hsl(0, 0%, 100%);
   height: 15rem;
   padding-top: 1.8rem;
 }
 .jeanette-img,
-.kira-img{
+.kira-img {
   border-color: hsl(0, 0%, 100%);
 }
 .jeanette-name,
-.kira-name{
+.kira-name {
   color: hsla(219, 29%, 14%, 0.8);
   font-size: 0.8rem;
   font-weight: 500;
 }
 
-.jeanette-verified-graduate-container{
+.jeanette-verified-graduate-container {
   color: hsla(219, 29%, 14%, 0.6);
   font-weight: 500;
 }
 .jeanette-heading-container,
-.kira-heading-container{
+.kira-heading-container {
   color: hsl(217, 19%, 35%);
   line-height: 1.2;
 }
 .jeanette-desc-text-container,
-.kira-desc-text-container{
+.kira-desc-text-container {
   color: hsl(217, 19%, 35%);
 }
 
-.patrick-container{
+.patrick-container {
   background-color: hsl(219, 29%, 14%);
   height: 29rem;
 }
-.patrick-img{
+.patrick-img {
   border-color: hsl(263, 55%, 52%);
-
 }
-.patrick-heading-container{
+.patrick-heading-container {
   color: hsl(0, 0%, 81%);
 }
 
-.kira-container{
+.kira-container {
   background-color: hsl(0, 0%, 100%);
   height: 34rem;
   flex-shrink: 1;
 }
-.kira-name{
+.kira-name {
   color: hsl(217, 19%, 35%);
   font-weight: 600;
   font-size: 0.92rem;
 }
 
-.kira-verified-graduate-container{
-color: hsl(0, 0%, 81%);
-font-weight: 500;
-font-size: 0.8rem;
-
+.kira-verified-graduate-container {
+  color: hsl(0, 0%, 81%);
+  font-weight: 500;
+  font-size: 0.8rem;
 }
 
-@media (min-width: 1000px ){
+@media (min-width: 1000px) {
+  body {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 15rem;
+  }
 
-body{
-  display: grid;
-  grid-template-rows: auto 1fr;
-  gap: 15rem;
-}
+  .container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-.container{
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-  .content-container{
+  .content-container {
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: 1.6rem;
-    width: 100% ;
+    width: 100%;
     height: 95%;
     align-items: center;
     padding: 6rem;
     box-sizing: border-box;
   }
 
-
-
-
-  .cluster-container{
+  .cluster-container {
     display: flex;
     flex-direction: column;
   }
 
-  .top-cluster-container{
-    display:grid;
+  .top-cluster-container {
+    display: grid;
     grid-template-columns: 2fr 1fr;
     height: 50%;
     gap: 1.6rem;
-    
   }
-.daniel-container{
-  height: 86%;
-  width: 35rem;
-  background-image: url(./images/bg-pattern-quotation.svg);
-  background-repeat: no-repeat;
-  background-position: top 0.5rem right 5rem;
-  padding: 1.8rem;
-  
-
-}
-.jonathan-container{
+  .daniel-container {
+    height: 86%;
+    width: 35rem;
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top 0.5rem right 5rem;
+    padding: 1.8rem;
+  }
+  .jonathan-container {
     height: 86%;
     padding: 1.8rem;
+  }
 
-
-}
-
-  .bottom-cluster-container{
+  .bottom-cluster-container {
     display: grid;
     grid-template-columns: 1fr 2fr;
     height: 50%;
     gap: 1.6rem;
   }
-.jeanette-container{
-  height: 86%;
+  .jeanette-container {
+    height: 86%;
     padding: 1.8rem;
+  }
+  .patrick-container {
+    height: 86%;
+    padding: 1.8rem;
+  }
 
-}
-.patrick-container{
-  height: 86%;
-  padding: 1.8rem;
-}
+  .solo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45rem;
+    padding-bottom: 1.5rem;
+  }
+  .kira-container {
+    height: 86%;
+    width: 86%;
+    padding: 1.8rem;
+  }
+  .desc-text-container {
+    font-size: 0.86rem;
+    color: hsl(0, 0%, 81%);
+    font-weight: 500;
+    line-height: 1.5;
+  }
 
-.solo-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 45rem;
-  padding-bottom: 1.5rem;
-}
-.kira-container{
-  height: 86%;
-  width: 86%;
-  padding: 1.8rem;
-}
-.desc-text-container{
-  font-size: 0.86rem;
-  color: hsl(0, 0%, 81%);
-  font-weight: 500;
-  line-height: 1.5;
-}
-
-.heading-container{
-  font-size: 1.3rem;
-  color: hsl(0, 0%, 100%);
-  font-weight: 600;
-  line-height: 1.35;
-  margin-bottom: 0.7rem;
-}
-
+  .heading-container {
+    font-size: 1.3rem;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    line-height: 1.35;
+    margin-bottom: 0.7rem;
+  }
 }
